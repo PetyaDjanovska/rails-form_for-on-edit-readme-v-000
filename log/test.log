@@ -1342,6 +1342,7 @@ Started PATCH "/posts/1" for 127.0.0.1 at 2018-07-03 20:16:55 +0000
 Started GET "/posts/1" for 127.0.0.1 at 2018-07-03 20:17:52 +0000
 Processing by PostsController#show as HTML
   Parameters: {"id"=>"1"}
+<<<<<<< HEAD
   [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
   Rendered posts/show.html.erb within layouts/application (3.2ms)
 Completed 200 OK in 259ms (Views: 229.9ms | ActiveRecord: 0.2ms)
@@ -1422,3 +1423,5 @@ Processing by PostsController#show as HTML
   Rendered posts/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
   [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> bf16d3f8555d016f8cc229b7ff3bb5445b258711
